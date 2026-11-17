@@ -1,0 +1,14 @@
+{
+  "embed_backend": "tfidf",
+  "embed_model": "TF-IDF (1-2 grams, sublinear tf, dense)",
+  "chunk_tokens": 500,
+  "chunk_overlap": 100,
+  "similarity": "cosine (inner product on normalised vectors)",
+  "index_type": "faiss.IndexFlatIP",
+  "num_vectors": 257,
+  "dim": 48159,
+  "documents": [
+    "intro-to-ml-book.pdf",
+    "troubleshooting_runbook.pdf"
+  ]
+}
