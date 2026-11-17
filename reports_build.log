@@ -1,0 +1,93 @@
+Chunking: 500 tokens, 100 overlap; embedding backend tfidf: TF-IDF (1-2 grams, sublinear tf, dense)
+{
+  "document": "intro-to-ml-book.pdf",
+  "pages": 392,
+  "empty_pages_after_extraction": 5,
+  "pages_with_text_after_cleaning": 387,
+  "raw_chars": 692452,
+  "clean_chars": 654219,
+  "clean_words": 100469,
+  "chars_per_page_min": 0,
+  "chars_per_page_median": 1746,
+  "chars_per_page_max": 3228,
+  "toc_dot_leader_lines": 10,
+  "replacement_chars_U+FFFD": 0,
+  "non_ascii_chars": 1858,
+  "hyphenated_line_breaks_fixed": 55,
+  "very_short_lines_(<3_chars)": 27,
+  "cleaning": {
+    "repeated_header_footer_patterns": [],
+    "dropped_header_footer_lines": 358,
+    "removed_page_number_lines": 10
+  },
+  "chunking": {
+    "chunk_tokens": 500,
+    "overlap_tokens": 100,
+    "num_chunks": 251,
+    "tokens_min": 469,
+    "tokens_mean": 499.9,
+    "tokens_max": 500
+  }
+}
+{
+  "document": "troubleshooting_runbook.pdf",
+  "pages": 7,
+  "empty_pages_after_extraction": 0,
+  "pages_with_text_after_cleaning": 7,
+  "raw_chars": 16589,
+  "clean_chars": 15856,
+  "clean_words": 2342,
+  "chars_per_page_min": 1790,
+  "chars_per_page_median": 2172,
+  "chars_per_page_max": 2592,
+  "toc_dot_leader_lines": 0,
+  "replacement_chars_U+FFFD": 0,
+  "non_ascii_chars": 0,
+  "hyphenated_line_breaks_fixed": 0,
+  "very_short_lines_(<3_chars)": 0,
+  "cleaning": {
+    "repeated_header_footer_patterns": [
+      "Contoso Platform Engineering | Troubleshooting Runbook v3.2 | Internal - Synthetic demo data"
+    ],
+    "dropped_header_footer_lines": 7,
+    "removed_page_number_lines": 7
+  },
+  "chunking": {
+    "chunk_tokens": 500,
+    "overlap_tokens": 100,
+    "num_chunks": 6,
+    "tokens_min": 342,
+    "tokens_mean": 473.7,
+    "tokens_max": 500
+  }
+}
+Embedding 257 chunks ...
+Index saved to C:\Users\290791\AppData\Roaming\Claude\scratch-workspaces\9f6b417d-18c7-4445-8dfc-b025c50a5954\7a2105ff-86a2-4fa2-b5f6-89db54d59129\scratch-2026-11-17-fd8b44\rag_app\index
+# Sample retrieval (Part 2)
+
+Query: `What is the difference between bagging and boosting?`
+
+## Rank 1 - score 0.0816 - intro-to-ml-book.pdf, page 103 - chunk `intro-to-ml-book.pdf::0067`
+
+> in the ensemble, another impor‐
+> tant parameter of gradient boosting is the learning_rate, which controls how
+> strongly each tree tries to correct the mistakes of the previous trees. A higher learning
+> rate means each tree can make stronger corrections, allowing for more complex mod‐
+> els. Adding more trees to the ensemble, which can be accomplished by increasing
+> n_estimators, also increases the model complexity, as the model has more chances
+> to correct mistakes on the training set.
+> Here is an example of using GradientBoostingClassifier on the Breast Cancer
+> dataset. By default, 100 trees of maximum depth 3 and a learning rate of 0.1 are used:
+> In[72]:
+> from sklearn.ensemble import GradientBoostingClassifier
+> X_train, X_test, y_train, y_test = train_test_split(
+> cancer.data, cancer.target, random_s
+
+## Rank 2 - score 0.0754 - intro-to-ml-book.pdf, page 105 - chunk `intro-to-ml-book.pdf::0068`
+
+> common approach is to first try random forests, which work quite robustly. If ran‐
+> dom forests work well but prediction time is at a premium, or it is important to
+> squeeze out the last percentage of accuracy from the machine learning model, mov‐
+> ing to gradient boosting often helps.
+> If you want to apply gradient boosting to a large-scale problem, it might be worth
+> looking i
