@@ -1,0 +1,237 @@
+[
+  {
+    "question": "What is overfitting and how can it be detected?",
+    "k": 5,
+    "source_filter": null,
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Overfitting occurs when a model is fit too closely to the particularities of the training set, allowing it to perform well on the training data but failing to generalize to new data [2]. \n\nIt can be detected by comparing the model's performance on the training set versus the test set, specifically when there is a large discrepancy where the training set score is much higher than the test set score [3].",
+    "sources": [
+      {
+        "rank": 1,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 6,
+        "score": 0.0405
+      },
+      {
+        "rank": 2,
+        "source": "intro-to-ml-book.pdf",
+        "page": 42,
+        "score": 0.036
+      },
+      {
+        "rank": 3,
+        "source": "intro-to-ml-book.pdf",
+        "page": 62,
+        "score": 0.0348
+      },
+      {
+        "rank": 4,
+        "source": "intro-to-ml-book.pdf",
+        "page": 97,
+        "score": 0.025
+      },
+      {
+        "rank": 5,
+        "source": "intro-to-ml-book.pdf",
+        "page": 63,
+        "score": 0.0232
+      }
+    ],
+    "grounding": {
+      "lexical_support": 0.9,
+      "citations": [
+        2,
+        3
+      ],
+      "invalid_citations": [],
+      "refused": false
+    }
+  },
+  {
+    "question": "What is regularization used for?",
+    "k": 5,
+    "source_filter": null,
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Regularization is used to explicitly restrict a model to avoid overfitting [3].",
+    "sources": [
+      {
+        "rank": 1,
+        "source": "intro-to-ml-book.pdf",
+        "page": 66,
+        "score": 0.0799
+      },
+      {
+        "rank": 2,
+        "source": "intro-to-ml-book.pdf",
+        "page": 68,
+        "score": 0.067
+      },
+      {
+        "rank": 3,
+        "source": "intro-to-ml-book.pdf",
+        "page": 63,
+        "score": 0.066
+      },
+      {
+        "rank": 4,
+        "source": "intro-to-ml-book.pdf",
+        "page": 74,
+        "score": 0.0653
+      },
+      {
+        "rank": 5,
+        "source": "intro-to-ml-book.pdf",
+        "page": 69,
+        "score": 0.0646
+      }
+    ],
+    "grounding": {
+      "lexical_support": 0.714,
+      "citations": [
+        3
+      ],
+      "invalid_citations": [],
+      "refused": false
+    }
+  },
+  {
+    "question": "How do I fix an ERR-401 expired token error?",
+    "k": 5,
+    "source_filter": null,
+    "model": "gemini-3.5-flash-lite",
+    "answer": "To fix an ERR-401 expired token error:\n1. Restore the previous TTL (default 900 seconds) [2].\n2. Force a JWKS refresh by restarting the consumer pods one at a time [2].\n3. Fix NTP drift if present [2].\n4. Ask client teams to enable proactive refresh 60 seconds before expiry [2].",
+    "sources": [
+      {
+        "rank": 1,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 6,
+        "score": 0.152
+      },
+      {
+        "rank": 2,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 2,
+        "score": 0.1481
+      },
+      {
+        "rank": 3,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 5,
+        "score": 0.1271
+      },
+      {
+        "rank": 4,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 3,
+        "score": 0.0605
+      },
+      {
+        "rank": 5,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 1,
+        "score": 0.0323
+      }
+    ],
+    "grounding": {
+      "lexical_support": 1.0,
+      "citations": [
+        2
+      ],
+      "invalid_citations": [],
+      "refused": false
+    }
+  },
+  {
+    "question": "How do I renew an expired TLS certificate?",
+    "k": 5,
+    "source_filter": null,
+    "model": "gemini-3.5-flash-lite",
+    "answer": "To renew an expired TLS certificate, follow these steps:\n\n* Renew the certificate through cert-manager by running: `kubectl cert-manager renew <certificate-name>` [1][2].\n* Reload the ingress controller [1][2].\n* Verify the full chain [1][2].\n* If the ACME challenge fails, check your DNS-01 credentials [1][2].",
+    "sources": [
+      {
+        "rank": 1,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 5,
+        "score": 0.1393
+      },
+      {
+        "rank": 2,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 6,
+        "score": 0.0992
+      },
+      {
+        "rank": 3,
+        "source": "troubleshooting_runbook.pdf",
+        "page": 2,
+        "score": 0.0155
+      },
+      {
+        "rank": 4,
+        "source": "intro-to-ml-book.pdf",
+        "page": 10,
+        "score": 0.0
+      },
+      {
+        "rank": 5,
+        "source": "intro-to-ml-book.pdf",
+        "page": 9,
+        "score": 0.0
+      }
+    ],
+    "grounding": {
+      "lexical_support": 0.897,
+      "citations": [
+        1,
+        2
+      ],
+      "invalid_citations": [],
+      "refused": false
+    }
+  },
+  {
+    "question": "What is the best recipe for sourdough bread?",
+    "k": 5,
+    "source_filter": null,
+    "model": "gemini-3.5-flash-lite",
+    "answer": "I don't have enough information in the provided documents to answer that.",
+    "sources": [
+      {
+        "rank": 1,
+        "source": "intro-to-ml-book.pdf",
+        "page": 314,
+        "score": 0.0593
+      },
+      {
+        "rank": 2,
+        "source": "intro-to-ml-book.pdf",
+        "page": 276,
+        "score": 0.0198
+      },
+      {
+        "rank": 3,
+        "source": "intro-to-ml-book.pdf",
+        "page": 275,
+        "score": 0.0195
+      },
+      {
+        "rank": 4,
+        "source": "intro-to-ml-book.pdf",
+        "page": 279,
+        "score": 0.019
+      },
+      {
+        "rank": 5,
+        "source": "intro-to-ml-book.pdf",
+        "page": 280,
+        "score": 0.0181
+      }
+    ],
+    "grounding": {
+      "lexical_support": 0.2,
+      "citations": [],
+      "invalid_citations": [],
+      "refused": true
+    }
+  }
+]
