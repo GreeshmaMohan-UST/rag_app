@@ -1,8 +1,8 @@
 # Assignment 3 — RAG Knowledge Assistant: Report
 
-**Submission note:** this project is submitted as a zip file (`rag_app_submission.zip`). It was not pushed to
-GitHub, because uploads to GitHub are blocked by the corporate network. The zip contains the code, reports and
-documentation. The book and the generated index are not included.
+**Submission note:** the code, reports and documentation are in the GitHub repository
+https://github.com/GreeshmaMohan-UST/rag_app. The ML book and the
+generated index are not part of the submission.
 
 ## How to run
 
