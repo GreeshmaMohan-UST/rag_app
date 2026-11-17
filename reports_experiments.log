@@ -1,0 +1,49 @@
+k=3: hit rate 91.67%
+k=5: hit rate 91.67%
+k=7: hit rate 91.67%
+# Sample grounded answers (Part 4)
+
+k = 5, chunk size = 500, overlap = 100
+
+## Q: What is overfitting and how can it be detected?
+
+**Model:** extractive-fallback (no ANTHROPIC_API_KEY)
+
+that are deploy related, repeat-incident rate per error code, and number of incidents detected by [1] set contains, the more complex a model you can use without overfitting. [2] information we have, as our novice data scientist did, is called overfitting. [2]
+
+**Sources:** [1] troubleshooting_runbook.pdf p6 (score 0.0405); [2] intro-to-ml-book.pdf p42 (score 0.036); [3] intro-to-ml-book.pdf p62 (score 0.0348); [4] intro-to-ml-book.pdf p97 (score 0.025); [5] intro-to-ml-book.pdf p63 (score 0.0232)
+**Grounding:** `{"lexical_support": 1.0, "citations": [1, 2], "invalid_citations": [], "refused": false}`
+
+## Q: What is regularization used for?
+
+**Model:** extractive-fallback (no ANTHROPIC_API_KEY)
+
+slightly different way, called L1 regularization.8 The consequence of L1 regularization [1] print("Number of features used: {}".format(np.sum(lasso001.coef_ != 0))) [1] print("Number of features used: {}".format(np.sum(lasso.coef_ != 0))) [1]
+
+**Sources:** [1] intro-to-ml-book.pdf p66 (score 0.0799); [2] intro-to-ml-book.pdf p68 (score 0.067); [3] intro-to-ml-book.pdf p63 (score 0.066); [4] intro-to-ml-book.pdf p74 (score 0.0653); [5] intro-to-ml-book.pdf p69 (score 0.0646)
+**Grounding:** `{"lexical_support": 1.0, "citations": [1], "invalid_citations": [], "refused": false}`
+
+## Q: How do I fix an ERR-401 expired token error?
+
+**Model:** extractive-fallback (no ANTHROPIC_API_KEY)
+
+Symptom: Clients receive HTTP 401 with body {"error":"token_expired"}; spikes often follow a deployment [2] ERR-401 - Expired or invalid authentication token [2] that are deploy related, repeat-incident rate per error code, and number of incidents detected by [1]
+
+**Sources:** [1] troubleshooting_runbook.pdf p6 (score 0.152); [2] troubleshooting_runbook.pdf p2 (score 0.1481); [3] troubleshooting_runbook.pdf p5 (score 0.1271); [4] troubleshooting_runbook.pdf p3 (score 0.0605); [5] troubleshooting_runbook.pdf p1 (score 0.0323)
+**Grounding:** `{"lexical_support": 1.0, "citations": [1, 2], "invalid_citations": [], "refused": false}`
+
+## Q: How do I renew an expired TLS certificate?
+
+**Model:** extractive-fallback (no ANTHROPIC_API_KEY)
+
+Symptom: Clients fail with 'certificate has expired' or 'SSL handshake failed'. [1] Fix: Renew the certificate through cert-manager (kubectl cert-manager renew ), reload the ingress [1] CERT-EXP - TLS certificate expired [1]
+
+**Sources:** [1] troubleshooting_runbook.pdf p5 (score 0.1393); [2] troubleshooting_runbook.pdf p6 (score 0.0992); [3] troubleshooting_runbook.pdf p2 (score 0.0155); [4] intro-to-ml-book.pdf p10 (score 0.0); [5] intro-to-ml-book.pdf p9 (score 0.0)
+**Grounding:** `{"lexical_support": 1.0, "citations": [1], "invalid_citations": [], "refused": false}`
+
+## Q: What is the best recipe for sourdough bread?
+
+**Model:** extractive-fallback (no ANTHROPIC_AP
+chunk 250/50: 515 chunks, hit@5 11/12
+chunk 500/100: 257 chunks, hit@5 11/12
+chunk 1000/150: 122 chunks, hit@5 11/12
