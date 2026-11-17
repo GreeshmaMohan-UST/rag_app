@@ -1,0 +1,32 @@
+{
+  "250/50": {
+    "num_chunks": 515,
+    "hit_rate_at_5": 0.917,
+    "chunk_tokens": 250,
+    "overlap_tokens": 50,
+    "per_document_chunks": {
+      "intro-to-ml-book.pdf": 503,
+      "troubleshooting_runbook.pdf": 12
+    }
+  },
+  "500/100": {
+    "num_chunks": 257,
+    "hit_rate_at_5": 0.917,
+    "chunk_tokens": 500,
+    "overlap_tokens": 100,
+    "per_document_chunks": {
+      "intro-to-ml-book.pdf": 251,
+      "troubleshooting_runbook.pdf": 6
+    }
+  },
+  "1000/150": {
+    "num_chunks": 122,
+    "hit_rate_at_5": 0.917,
+    "chunk_tokens": 1000,
+    "overlap_tokens": 150,
+    "per_document_chunks": {
+      "intro-to-ml-book.pdf": 119,
+      "troubleshooting_runbook.pdf": 3
+    }
+  }
+}
