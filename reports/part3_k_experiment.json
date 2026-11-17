@@ -1,0 +1,416 @@
+{
+  "k=3": {
+    "hit_rate": 0.917,
+    "context_tokens_approx": 1500,
+    "per_query": [
+      {
+        "query": "What is overfitting and how can it be detected?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "intro-to-ml-book.pdf p42",
+          "intro-to-ml-book.pdf p62"
+        ]
+      },
+      {
+        "query": "What is the difference between bagging and boosting?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102"
+        ]
+      },
+      {
+        "query": "How does gradient descent update the model parameters?",
+        "hit": false,
+        "top_sources": [
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p103"
+        ]
+      },
+      {
+        "query": "What is regularization used for?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p66",
+          "intro-to-ml-book.pdf p68",
+          "intro-to-ml-book.pdf p63"
+        ]
+      },
+      {
+        "query": "What is cross-validation?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p269",
+          "intro-to-ml-book.pdf p268",
+          "intro-to-ml-book.pdf p286"
+        ]
+      },
+      {
+        "query": "What do precision and recall measure?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p296",
+          "intro-to-ml-book.pdf p303",
+          "intro-to-ml-book.pdf p304"
+        ]
+      },
+      {
+        "query": "How do I fix an ERR-401 expired token error?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p5"
+        ]
+      },
+      {
+        "query": "What causes connection pool exhaustion (DB-POOL)?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5"
+        ]
+      },
+      {
+        "query": "What should I do when a container is OOMKilled?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6"
+        ]
+      },
+      {
+        "query": "How do I renew an expired TLS certificate?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2"
+        ]
+      },
+      {
+        "query": "What backoff should clients use for ERR-429 rate limits?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5"
+        ]
+      },
+      {
+        "query": "What is the acknowledgement target for a Sev1 incident?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p1",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2"
+        ]
+      }
+    ]
+  },
+  "k=5": {
+    "hit_rate": 0.917,
+    "context_tokens_approx": 2500,
+    "per_query": [
+      {
+        "query": "What is overfitting and how can it be detected?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "intro-to-ml-book.pdf p42",
+          "intro-to-ml-book.pdf p62",
+          "intro-to-ml-book.pdf p97",
+          "intro-to-ml-book.pdf p63"
+        ]
+      },
+      {
+        "query": "What is the difference between bagging and boosting?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p117",
+          "intro-to-ml-book.pdf p379"
+        ]
+      },
+      {
+        "query": "How does gradient descent update the model parameters?",
+        "hit": false,
+        "top_sources": [
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p136",
+          "intro-to-ml-book.pdf p141"
+        ]
+      },
+      {
+        "query": "What is regularization used for?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p66",
+          "intro-to-ml-book.pdf p68",
+          "intro-to-ml-book.pdf p63",
+          "intro-to-ml-book.pdf p74",
+          "intro-to-ml-book.pdf p69"
+        ]
+      },
+      {
+        "query": "What is cross-validation?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p269",
+          "intro-to-ml-book.pdf p268",
+          "intro-to-ml-book.pdf p286",
+          "intro-to-ml-book.pdf p266",
+          "intro-to-ml-book.pdf p270"
+        ]
+      },
+      {
+        "query": "What do precision and recall measure?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p296",
+          "intro-to-ml-book.pdf p303",
+          "intro-to-ml-book.pdf p304",
+          "intro-to-ml-book.pdf p297",
+          "intro-to-ml-book.pdf p300"
+        ]
+      },
+      {
+        "query": "How do I fix an ERR-401 expired token error?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "troubleshooting_runbook.pdf p1"
+        ]
+      },
+      {
+        "query": "What causes connection pool exhaustion (DB-POOL)?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "troubleshooting_runbook.pdf p1"
+        ]
+      },
+      {
+        "query": "What should I do when a container is OOMKilled?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6",
+          "intro-to-ml-book.pdf p10",
+          "intro-to-ml-book.pdf p9"
+        ]
+      },
+      {
+        "query": "How do I renew an expired TLS certificate?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "intro-to-ml-book.pdf p10",
+          "intro-to-ml-book.pdf p9"
+        ]
+      },
+      {
+        "query": "What backoff should clients use for ERR-429 rate limits?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "intro-to-ml-book.pdf p306"
+        ]
+      },
+      {
+        "query": "What is the acknowledgement target for a Sev1 incident?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p1",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "intro-to-ml-book.pdf p30",
+          "troubleshooting_runbook.pdf p3"
+        ]
+      }
+    ]
+  },
+  "k=7": {
+    "hit_rate": 0.917,
+    "context_tokens_approx": 3500,
+    "per_query": [
+      {
+        "query": "What is overfitting and how can it be detected?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "intro-to-ml-book.pdf p42",
+          "intro-to-ml-book.pdf p62",
+          "intro-to-ml-book.pdf p97",
+          "intro-to-ml-book.pdf p63",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p89"
+        ]
+      },
+      {
+        "query": "What is the difference between bagging and boosting?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p117",
+          "intro-to-ml-book.pdf p379",
+          "intro-to-ml-book.pdf p94",
+          "intro-to-ml-book.pdf p381"
+        ]
+      },
+      {
+        "query": "How does gradient descent update the model parameters?",
+        "hit": false,
+        "top_sources": [
+          "intro-to-ml-book.pdf p105",
+          "intro-to-ml-book.pdf p102",
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p136",
+          "intro-to-ml-book.pdf p141",
+          "intro-to-ml-book.pdf p316",
+          "intro-to-ml-book.pdf p134"
+        ]
+      },
+      {
+        "query": "What is regularization used for?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p66",
+          "intro-to-ml-book.pdf p68",
+          "intro-to-ml-book.pdf p63",
+          "intro-to-ml-book.pdf p74",
+          "intro-to-ml-book.pdf p69",
+          "intro-to-ml-book.pdf p70",
+          "intro-to-ml-book.pdf p62"
+        ]
+      },
+      {
+        "query": "What is cross-validation?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p269",
+          "intro-to-ml-book.pdf p268",
+          "intro-to-ml-book.pdf p286",
+          "intro-to-ml-book.pdf p266",
+          "intro-to-ml-book.pdf p270",
+          "intro-to-ml-book.pdf p277",
+          "intro-to-ml-book.pdf p320"
+        ]
+      },
+      {
+        "query": "What do precision and recall measure?",
+        "hit": true,
+        "top_sources": [
+          "intro-to-ml-book.pdf p296",
+          "intro-to-ml-book.pdf p303",
+          "intro-to-ml-book.pdf p304",
+          "intro-to-ml-book.pdf p297",
+          "intro-to-ml-book.pdf p300",
+          "intro-to-ml-book.pdf p306",
+          "intro-to-ml-book.pdf p302"
+        ]
+      },
+      {
+        "query": "How do I fix an ERR-401 expired token error?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "troubleshooting_runbook.pdf p1",
+          "intro-to-ml-book.pdf p46",
+          "intro-to-ml-book.pdf p358"
+        ]
+      },
+      {
+        "query": "What causes connection pool exhaustion (DB-POOL)?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "troubleshooting_runbook.pdf p1",
+          "troubleshooting_runbook.pdf p2",
+          "intro-to-ml-book.pdf p52"
+        ]
+      },
+      {
+        "query": "What should I do when a container is OOMKilled?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p4",
+          "troubleshooting_runbook.pdf p6",
+          "intro-to-ml-book.pdf p13",
+          "intro-to-ml-book.pdf p12",
+          "intro-to-ml-book.pdf p10",
+          "intro-to-ml-book.pdf p9"
+        ]
+      },
+      {
+        "query": "How do I renew an expired TLS certificate?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "intro-to-ml-book.pdf p13",
+          "intro-to-ml-book.pdf p12",
+          "intro-to-ml-book.pdf p10",
+          "intro-to-ml-book.pdf p9"
+        ]
+      },
+      {
+        "query": "What backoff should clients use for ERR-429 rate limits?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p2",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p5",
+          "troubleshooting_runbook.pdf p3",
+          "intro-to-ml-book.pdf p306",
+          "intro-to-ml-book.pdf p103",
+          "intro-to-ml-book.pdf p48"
+        ]
+      },
+      {
+        "query": "What is the acknowledgement target for a Sev1 incident?",
+        "hit": true,
+        "top_sources": [
+          "troubleshooting_runbook.pdf p1",
+          "troubleshooting_runbook.pdf p6",
+          "troubleshooting_runbook.pdf p2",
+          "intro-to-ml-book.pdf p30",
+          "troubleshooting_runbook.pdf p3",
+          "troubleshooting_runbook.pdf p5",
+          "intro-to-ml-book.pdf p28"
+        ]
+      }
+    ]
+  }
+}
