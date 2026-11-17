@@ -1,0 +1,64 @@
+[
+  {
+    "document": "intro-to-ml-book.pdf",
+    "pages": 392,
+    "empty_pages_after_extraction": 5,
+    "pages_with_text_after_cleaning": 387,
+    "raw_chars": 692452,
+    "clean_chars": 654219,
+    "clean_words": 100469,
+    "chars_per_page_min": 0,
+    "chars_per_page_median": 1746,
+    "chars_per_page_max": 3228,
+    "toc_dot_leader_lines": 10,
+    "replacement_chars_U+FFFD": 0,
+    "non_ascii_chars": 1858,
+    "hyphenated_line_breaks_fixed": 55,
+    "very_short_lines_(<3_chars)": 27,
+    "cleaning": {
+      "repeated_header_footer_patterns": [],
+      "dropped_header_footer_lines": 358,
+      "removed_page_number_lines": 10
+    },
+    "chunking": {
+      "chunk_tokens": 500,
+      "overlap_tokens": 100,
+      "num_chunks": 251,
+      "tokens_min": 469,
+      "tokens_mean": 499.9,
+      "tokens_max": 500
+    }
+  },
+  {
+    "document": "troubleshooting_runbook.pdf",
+    "pages": 7,
+    "empty_pages_after_extraction": 0,
+    "pages_with_text_after_cleaning": 7,
+    "raw_chars": 16589,
+    "clean_chars": 15856,
+    "clean_words": 2342,
+    "chars_per_page_min": 1790,
+    "chars_per_page_median": 2172,
+    "chars_per_page_max": 2592,
+    "toc_dot_leader_lines": 0,
+    "replacement_chars_U+FFFD": 0,
+    "non_ascii_chars": 0,
+    "hyphenated_line_breaks_fixed": 0,
+    "very_short_lines_(<3_chars)": 0,
+    "cleaning": {
+      "repeated_header_footer_patterns": [
+        "Contoso Platform Engineering | Troubleshooting Runbook v3.2 | Internal - Synthetic demo data"
+      ],
+      "dropped_header_footer_lines": 7,
+      "removed_page_number_lines": 7
+    },
+    "chunking": {
+      "chunk_tokens": 500,
+      "overlap_tokens": 100,
+      "num_chunks": 6,
+      "tokens_min": 342,
+      "tokens_mean": 473.7,
+      "tokens_max": 500
+    }
+  }
+]
